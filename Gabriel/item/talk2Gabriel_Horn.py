@@ -23,7 +23,7 @@ class Client(QtGui.QDialog):
         self.portLineEdit = QtGui.QLineEdit()
         self.portLineEdit.setValidator(QtGui.QIntValidator(1, 65535, self))
         
-        self.askLineEdit = QtGui.QLineEdit(u"['nuke_system中文','Linux','7.0']")
+        self.askLineEdit = QtGui.QLineEdit(u"nuke_system中文,Linux,7.0")
 
         hostLabel.setBuddy(self.hostLineEdit)
         portLabel.setBuddy(self.portLineEdit)
