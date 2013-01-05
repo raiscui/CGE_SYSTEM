@@ -12,8 +12,7 @@ class GhClient(QtCore.QObject):
 		super(GhClient, self).__init__()
 		self.parent = parent
 		self.blockSize = 0
-		self.currentAnswer = ''
-		self.questionResult_unicode =  ''
+		self.questionResult_unicode =  None
 		#self.hostLineEdit = 'huangxf.sunupcg.cn'
 		self.host = '127.0.0.1'
 		self.port = 2012
@@ -22,16 +21,29 @@ class GhClient(QtCore.QObject):
 		self.tcpSocket = QtNetwork.QTcpSocket()
 
 		#====--------------------  connect  --------------------====
-		self.tcpSocket.readyRead.connect(self.readAnswer)
+		#self.tcpSocket.readyRead.connect(self.readAnswer)
 		self.tcpSocket.error.connect(self.displayError)
-		self.tcpSocket.connected.connect(self.ask)
+		#self.tcpSocket.connected.connect(self.ask)
 		#****************************************************************#
+	#----------------------------------------------------------------------
+	def askingPath(self, question=None):
+		""""""
+		self.question = question
+		self.requestNewTalk()
+		self.tcpSocket.waitForConnected()
+		self.ask()
+		self.tcpSocket.waitForReadyRead()
+		self.readAnswer()
+		self.tcpSocket.disconnectFromHost()
+		return self.questionResult_unicode
+		
 	def requestNewTalk(self):
 		self.blockSize = 0
 		self.tcpSocket.abort()
 		self.tcpSocket.connectToHost(self.host,self.port)
 		
 	def ask(self):
+		print 'asking..'
 		block = QtCore.QByteArray()
 		out = QtCore.QDataStream(block, QtCore.QIODevice.WriteOnly)
 		out.setVersion(QtCore.QDataStream.Qt_4_0)
@@ -54,6 +66,7 @@ class GhClient(QtCore.QObject):
 
 
 	def readAnswer(self):
+		print 'readAnswer....'
 		instr = QtCore.QDataStream(self.tcpSocket)
 		instr.setVersion(QtCore.QDataStream.Qt_4_0)
 
@@ -76,18 +89,21 @@ class GhClient(QtCore.QObject):
 		except TypeError:
 			# Python v2.
 
-			print 'TypeError,2'
+			#print 'TypeError,2'
 			pass
 
 		#if nextAnswer == self.currentAnswer:
 			#print 'nextFortune == self.currentFortune'
-			##QtCore.QTimer.singleShot(0, self.requestNewTalk)
+			#QtCore.QTimer.singleShot(0, self.requestNewTalk)
 			#return
-
-		self.currentAnswer = nextAnswer
-		self.questionResult_unicode=self.currentAnswer.decode('utf-8')
+		try:
+			self.questionResult_unicode=nextAnswer.decode('utf-8')
+		except AttributeError:
+			self.questionResult_unicode = None
+			
 		print self.questionResult_unicode
-		self.parent.exit()
+		#self.parent.exit()
+		
 
 	def displayError(self, socketError):
 		if socketError == QtNetwork.QAbstractSocket.RemoteHostClosedError:
@@ -103,9 +119,9 @@ class GhClient(QtCore.QObject):
 if __name__ == '__main__':
 	print QtGui.qApp
 	client = GhClient(QtGui.qApp)
-	client.requestNewTalk()
+	client.askingPath( "nuke_system,Linux,7.0")
+	QtGui.qApp.exit()
 
-	sys.exit(client.parent.exec_())
 
 
 

@@ -43,6 +43,10 @@ class gabrielHornThread(QtCore.QThread):
 
 	#----------------------------------------------------------------------
 	def readQuestion(self):
+		print 'connected, readQuestion'
+
+		
+		
 		instr = QtCore.QDataStream(self.tcpSocket)
 		instr.setVersion(QtCore.QDataStream.Qt_4_0)
 
@@ -55,9 +59,11 @@ class gabrielHornThread(QtCore.QThread):
 
 		if self.tcpSocket.bytesAvailable() < blockSize:
 			print 'tcpSocket.bytesAvailable() < self.blockSize:'
-			return
 
+			return
+			
 		nextQuestion = instr.readString()
+		print nextQuestion
 
 		try:
 			# Python v3.
@@ -68,17 +74,26 @@ class gabrielHornThread(QtCore.QThread):
 			#print 'TypeError,2'
 			pass
 
-		currentQuestion =  nextQuestion.split(',')
+		try:
+			currentQuestion =  nextQuestion.split(',')
+		except AttributeError:
+			currentQuestion = None
+			
+			
 
 		self.thinking(currentQuestion)
 
 	#----------------------------------------------------------------------
 	def thinking(self, currentQuestion):
 		answerResult  =  self.results
-		for x in currentQuestion:
-			answerResult  =  answerResult[x]
+		try:
+			for x in currentQuestion:
+				answerResult  =  answerResult[x]			
+		except TypeError:
+			answerResult = None
+
 		if type(answerResult) is defaultdict:
-			answerResult = "None"
+			answerResult = None
 		self.answer(answerResult)
 
 	#----------------------------------------------------------------------
@@ -104,6 +119,7 @@ class gabrielHornThread(QtCore.QThread):
 		self.tcpSocket.write(block)
 		self.tcpSocket.disconnectFromHost()
 		self.tcpSocket.waitForDisconnected()
+		print 'disconnected'
 
 
 
