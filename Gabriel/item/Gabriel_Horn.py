@@ -20,8 +20,9 @@ class gabrielHornThread(QtCore.QThread):
 	#----------------------------------------------------------------------
 	def __init__(self, socketDescriptor, parent):
 		"""Constructor"""
-		super(FortuneThread, self).__init__(parent)
+		super(gabrielHornThread, self).__init__(parent)
 		self.sockDescriptor =  socketDescriptor
+		self.tcpSocket = None
 		
 		self.results = tree()
 		self.results['nuke_system']['Windows']['6.3'] = '1'
@@ -33,76 +34,76 @@ class gabrielHornThread(QtCore.QThread):
 	#----------------------------------------------------------------------
 	def run(self):
 		""""""
-		tcpSocket = QtNetwork.QTcpSocket()
-		if not tcpSocket.setSocketDescriptor(self.sockDescriptor):
+		self.tcpSocket = QtNetwork.QTcpSocket()
+		if not self.tcpSocket.setSocketDescriptor(self.sockDescriptor):
 			self.error.emit(tcpSocket.error())
 			return
-		tcpSocket.readyRead.connect(readQuestion)
-		tcpSocket.waitForReadyRead()
+		self.tcpSocket.readyRead.connect(self.readQuestion)
+		self.tcpSocket.waitForReadyRead()
 
-		#----------------------------------------------------------------------
-		def readQuestion(self):
-			instr = QtCore.QDataStream(tcpSocket)
-			instr.setVersion(QtCore.QDataStream.Qt_4_0)
-	
-	
-			if tcpSocket.bytesAvailable() < 2:
-				print 'tcpSocket.bytesAvailable() < 2:'
-				return
-	
-			blockSize = instr.readUInt16()
-	
-			if tcpSocket.bytesAvailable() < blockSize:
-				print 'tcpSocket.bytesAvailable() < self.blockSize:'
-				return
-	
-			nextQuestion = instr.readString()
-	
-			try:
-				# Python v3.
-				nextQuestion = str(nextQuestion, encoding='ascii')
-			except TypeError:
-				# Python v2.
-				#nextQuestion=nextQuestion.decode('utf-8')
-				#print 'TypeError,2'
-				pass
-	
-			currentQuestion =  nextQuestion.split(',')
-	
-			thinking(currentQuestion)
-	
-		#----------------------------------------------------------------------
-		def thinking(self, currentQuestion):
-			answerResult  =  self.results
-			for x in currentQuestion:
-				answerResult  =  answerResult[x]
-			if type(answerResult) is defaultdict:
-				answerResult = "None"
-			answer(answerResult)
-	
-		#----------------------------------------------------------------------
-		def answer(self, answerResult):
-			block = QtCore.QByteArray()
-			out = QtCore.QDataStream(block, QtCore.QIODevice.WriteOnly)
-			out.setVersion(QtCore.QDataStream.Qt_4_0)
-			out.writeUInt16(0)
-	
-	
-			try:
-				# Python v3.
-				answerResult = bytes(answerResult, encoding='ascii')
-			except:
-				# Python v2.
-				pass
-	
-			out.writeString(answerResult)
-			out.device().seek(0)
-			out.writeUInt16(block.size() -2)
-	
-	
-			tcpSocket.write(block)
-			tcpSocket.disconnectFromHost()
-			tcpSocket.waitForDisconnected()
+	#----------------------------------------------------------------------
+	def readQuestion(self):
+		instr = QtCore.QDataStream(self.tcpSocket)
+		instr.setVersion(QtCore.QDataStream.Qt_4_0)
+
+
+		if self.tcpSocket.bytesAvailable() < 2:
+			print 'tcpSocket.bytesAvailable() < 2:'
+			return
+
+		blockSize = instr.readUInt16()
+
+		if self.tcpSocket.bytesAvailable() < blockSize:
+			print 'tcpSocket.bytesAvailable() < self.blockSize:'
+			return
+
+		nextQuestion = instr.readString()
+
+		try:
+			# Python v3.
+			nextQuestion = str(nextQuestion, encoding='ascii')
+		except TypeError:
+			# Python v2.
+			#nextQuestion=nextQuestion.decode('utf-8')
+			#print 'TypeError,2'
+			pass
+
+		currentQuestion =  nextQuestion.split(',')
+
+		self.thinking(currentQuestion)
+
+	#----------------------------------------------------------------------
+	def thinking(self, currentQuestion):
+		answerResult  =  self.results
+		for x in currentQuestion:
+			answerResult  =  answerResult[x]
+		if type(answerResult) is defaultdict:
+			answerResult = "None"
+		self.answer(answerResult)
+
+	#----------------------------------------------------------------------
+	def answer(self, answerResult):
+		block = QtCore.QByteArray()
+		out = QtCore.QDataStream(block, QtCore.QIODevice.WriteOnly)
+		out.setVersion(QtCore.QDataStream.Qt_4_0)
+		out.writeUInt16(0)
+
+
+		try:
+			# Python v3.
+			answerResult = bytes(answerResult, encoding='ascii')
+		except:
+			# Python v2.
+			pass
+
+		out.writeString(answerResult)
+		out.device().seek(0)
+		out.writeUInt16(block.size() -2)
+
+
+		self.tcpSocket.write(block)
+		self.tcpSocket.disconnectFromHost()
+		self.tcpSocket.waitForDisconnected()
 
 
 
@@ -125,7 +126,7 @@ class gabrielHornSer(QtNetwork.QTcpServer):
 		thread.finished.connect(thread.deleteLater)
 		thread.start()
 
-
+########################################################################
 class mainwin(QtGui.QDialog):
 	def __init__(self, parent=None):
 		super(mainwin, self).__init__(parent)
@@ -173,6 +174,6 @@ if __name__ == '__main__':
 	import sys
 
 	app = QtGui.QApplication(sys.argv)
-	server = Server()
+	server = mainwin()
 
 	sys.exit(server.exec_())
