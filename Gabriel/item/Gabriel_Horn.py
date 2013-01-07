@@ -26,10 +26,10 @@ class gabrielHornThread(QtCore.QThread):
 		self.tcpSocket = None
 		
 		self.results = tree()
-		self.results['nuke_system']['Windows']['6.3'] = '1'
-		self.results['nuke_system']['Windows']['7.0'] = '2'
-		self.results['nuke_system']['Linux']['6.3'] = '3'
-		self.results['nuke_system']['Linux']['7.0'] = '4中文'
+		self.results['nuke_system']['Windows']['6.3'] = "//10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin/6.3"
+		self.results['nuke_system']['Windows']['7.0'] = "//10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin/7.0"
+		self.results['nuke_system']['Linux']['6.3'] = "/cifs/10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin/6.3"
+		self.results['nuke_system']['Linux']['7.0'] = "/cifs/10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin/7.0"
 		self.results['nuke_system中文']['Linux']['7.0'] = '中文文4中文文4中文文4中文'
 	#----------------------------------------------------------------------
 	def run(self):

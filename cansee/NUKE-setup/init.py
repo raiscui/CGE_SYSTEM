@@ -24,6 +24,7 @@ def QuestionFinding():
 #****************************************************************#
 if not os.path.exists('Moses.pyc'):
 	down('http://huangxf.sunupcg.cn:8000/Moses.pyc')
+print os.getcwd()
 #****************************************************************#
 import Moses
 global syspath
@@ -32,7 +33,7 @@ syspath=Moses.Moses().getAnswer(QuestionFinding())
 sys.path.append(syspath)
 nuke.pluginAddPath(syspath)
 #****************************************************************#
-print 'CGE NUKE syspath:',syspath
+print 'CGE NUKE syspath: ------------> \n',syspath
 print '==========================='
 import sys
 for p in sys.path:
