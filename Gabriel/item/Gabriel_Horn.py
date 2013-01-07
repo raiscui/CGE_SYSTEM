@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: UTF-8 -*- 
+# -*- coding: UTF-8 -*-
 # Author:  rais --<CGE>
 # Purpose: CGE system Gabriel horm service, add md5
 # Created: 2012/12/28

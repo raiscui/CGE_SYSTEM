@@ -8,12 +8,12 @@ from socket import *
 import hashlib as hl
 
 
-class GhTcpClient(object):
-	"""docstring for GhTcpClient"""
-	def __init__(self):
-		super(GhTcpClient, self).__init__()
-		self.host = '127.0.0.1'
-		self.port = 2012
+class Moses(object):
+	"""docstring for Moses"""
+	def __init__(self, host = '127.0.0.1', port = 2012):
+		super(Moses, self).__init__()
+		self.host = host
+		self.port = port
 		self.addr = (self.host, self.port)
 		self.tcps = None
 		self.question = ""
@@ -79,8 +79,8 @@ class GhTcpClient(object):
 
 
 def main():
-	a = GhTcpClient()
-	print a.getAnswer("nuke_system中文,Linux,7.0")
+	a = Moses()
+	print a.getAnswer("nuke_system,Linux,7.0")
 
 if __name__ == '__main__':
 	import devtool
