@@ -83,6 +83,4 @@ def main():
 	print a.getAnswer("nuke_system,Linux,7.0")
 
 if __name__ == '__main__':
-	import devtool
-	reload(devtool)
 	main()
