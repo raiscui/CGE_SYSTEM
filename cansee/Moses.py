@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Author:  rais --<CGE>
-# Purpose: gh tcp client, have md5
+# Purpose: Moses, gh tcp client, have md5
 # Created: 2013/1/5
-
 
 from socket import *
 import hashlib as hl
@@ -22,7 +21,7 @@ class GhTcpClient(object):
 
 	def getAnswer(self, question):
 		self.addr = (self.host, self.port)
-		self.question =  question
+		self.question = question
 		while True:
 			try:
 				self.__do()
@@ -60,7 +59,7 @@ class GhTcpClient(object):
 
 	def __tcp_adv_recv(self):
 		bsize = int(self.__tcp_recv(4))
-		
+
 		md5_remote = self.__tcp_recv(32)
 		data = self.__tcp_recv(bsize)
 		md5_loc = hl.md5(data).hexdigest()
@@ -71,18 +70,19 @@ class GhTcpClient(object):
 		bsize = len(data)
 		str_bs = '0' * (4 - len(str(bsize))) + str(bsize)
 		md5 = hl.md5(data).hexdigest()
-		self.tcps.send(str_bs+md5+data)
-
+		self.tcps.send(str_bs + md5 + data)
 
 	def __tcp_connect(self):
 		self.tcps = socket(AF_INET, SOCK_STREAM)
 		self.tcps.setblocking(1)
 		self.tcps.connect(self.addr)
 
+
 def main():
 	a = GhTcpClient()
 	print a.getAnswer("nuke_system中文,Linux,7.0")
 
 if __name__ == '__main__':
-	while True:
-		main()
+	import devtool
+	reload(devtool)
+	main()
