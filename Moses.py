@@ -81,6 +81,7 @@ class Moses(object):
 def NukeQuestionFinding():
 	""""""
 	import nuke
+	import platform
 	ostype = platform.system()
 	nukev = nuke.env["NukeVersionString"][:3]
 	q = ','.join(['nuke_system', ostype, nukev])
