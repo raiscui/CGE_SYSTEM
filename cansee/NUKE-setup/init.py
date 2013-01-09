@@ -3,7 +3,7 @@ from os.path import basename
 from urlparse import urlsplit
 import urllib2
 import nuke
-import platform
+
 import sys
 
 
