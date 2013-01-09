@@ -77,6 +77,16 @@ class Moses(object):
 		self.tcps.setblocking(1)
 		self.tcps.connect(self.addr)
 
+#----------------------------------------------------------------------
+def NukeQuestionFinding():
+	""""""
+	import nuke
+	ostype = platform.system()
+	nukev = nuke.env["NukeVersionString"][:3]
+	q = ','.join(['nuke_system', ostype, nukev])
+	print 'os:',ostype,'version:',nukev
+	return q
+
 
 def main():
 	a = Moses()
