@@ -31,7 +31,7 @@ for mp in mosesPaths:
 print os.getcwd()
 #****************************************************************#
 import Moses
-Moses.NukeDo(Moses.Moses())
+Moses.NukeDo()
 
 #****************************************************************#
 
@@ -39,7 +39,7 @@ global syspath
 syspath = Moses.mosesAnswer['syspath']
 print 'CGE NUKE syspath: ------------> \n', syspath
 print '==========================='
-import sys
+
 for p in sys.path:
 	print p
 print '==========================='

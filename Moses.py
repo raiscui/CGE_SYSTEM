@@ -58,7 +58,12 @@ class Moses(object):
 		return data
 
 	def __tcp_adv_recv(self):
-		bsize = int(self.__tcp_recv(4))
+		try:
+			bsize = int(self.__tcp_recv(4))
+		except Exception, e:
+			print e
+			return ''
+		
 
 		md5_remote = self.__tcp_recv(32)
 		data = self.__tcp_recv(bsize)
@@ -89,7 +94,15 @@ def NukeQuestionFinding():
 	return q
 
 #----------------------------------------------------------------------
-def NukeDo(MosesObject):
+def NukeAnalysis(mosesAnswer_og):
+	mosesAnswer_list = mosesAnswer_og.split(',')
+	if len(mosesAnswer_list) <= 1:
+		return {'syspath':mosesAnswer_list[0]}
+	else:
+		return {'syspath':mosesAnswer_list[0]}
+
+#----------------------------------------------------------------------
+def NukeDo(MosesObject=Moses()):
 	import nuke
 	import sys
 	
@@ -100,14 +113,11 @@ def NukeDo(MosesObject):
 	sys.path.append(syspath)
 	nuke.pluginAddPath(syspath)
 
-def NukeAnalysis(mosesAnswer_og):
-	mosesAnswer_list = mosesAnswer_og.split(',')
-	return {'syspath':mosesAnswer_list[0]}
 
 
 def main():
 	a = Moses()
-	print a.getAnswer("nuke_system,Linux,7.0")
+	print a.getAnswer("nuke_system,Linux,7.1")
 
 if __name__ == '__main__':
 	main()
