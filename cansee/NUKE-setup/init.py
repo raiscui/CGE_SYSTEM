@@ -20,8 +20,13 @@ def down(url, localFileName=None):
 	f.close()
 
 #****************************************************************#
+def getPyVersion():
+	""""""
+	import sys
+	return sys.version[:3]
+#****************************************************************#
 # if not os.path.exists('Moses.pyc'):
-mosesPaths = ['http://huangxf.sunupcg.cn:8000/Moses.pyc']
+mosesPaths = ['http://huangxf.sunupcg.cn:8000/py/'+ getPyVersion() +'/Moses.pyc']
 for mp in mosesPaths:
 	try:
 		down(mp)
