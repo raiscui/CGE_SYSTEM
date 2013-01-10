@@ -34,7 +34,9 @@ import Moses
 Moses.NukeDo(Moses.Moses())
 
 #****************************************************************#
+
 global syspath
+syspath = Moses.mosesAnswer['syspath']
 print 'CGE NUKE syspath: ------------> \n', syspath
 print '==========================='
 import sys

@@ -92,10 +92,18 @@ def NukeQuestionFinding():
 def NukeDo(MosesObject):
 	import nuke
 	import sys
-	global syspath
-	syspath = MosesObject.getAnswer(NukeQuestionFinding())
+	
+	mosesAnswer_og = MosesObject.getAnswer(NukeQuestionFinding())
+	global mosesAnswer
+	mosesAnswer = NukeAnalysis(mosesAnswer_og)
+	syspath = mosesAnswer['syspath']
 	sys.path.append(syspath)
 	nuke.pluginAddPath(syspath)
+
+def NukeAnalysis(mosesAnswer_og):
+	mosesAnswer_list = mosesAnswer_og.split(',')
+	return {'syspath':mosesAnswer_list[0]}
+
 
 def main():
 	a = Moses()
