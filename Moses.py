@@ -88,6 +88,14 @@ def NukeQuestionFinding():
 	print 'os:',ostype,'version:',nukev
 	return q
 
+#----------------------------------------------------------------------
+def NukeDo(MosesObject):
+	import nuke
+	import sys
+	global syspath
+	syspath = MosesObject.getAnswer(NukeQuestionFinding())
+	sys.path.append(syspath)
+	nuke.pluginAddPath(syspath)
 
 def main():
 	a = Moses()

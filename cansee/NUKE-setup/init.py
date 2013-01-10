@@ -31,12 +31,10 @@ for mp in mosesPaths:
 print os.getcwd()
 #****************************************************************#
 import Moses
+Moses.NukeDo(Moses.Moses())
+
+#****************************************************************#
 global syspath
-syspath = Moses.Moses().getAnswer(Moses.NukeQuestionFinding())
-#****************************************************************#
-sys.path.append(syspath)
-nuke.pluginAddPath(syspath)
-#****************************************************************#
 print 'CGE NUKE syspath: ------------> \n', syspath
 print '==========================='
 import sys
