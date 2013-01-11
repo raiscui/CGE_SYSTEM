@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MD</class>
+ <widget class="QDialog" name="MD">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>750</width>
+    <height>351</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>CGE_SYSTEM SETUP</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="CGE_SETUP.qrc">
+    <normaloff>:/images/sunup cg engine logo 128.jpg</normaloff>:/images/sunup cg engine logo 128.jpg</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>751</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>border-image: url(:/images/CGE logo 980.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nukePB">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>280</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>261</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>setup</string>
+   </property>
+   <property name="icon">
+    <iconset resource="CGE_SETUP.qrc">
+     <normaloff>:/images/WindowsIcon.ico</normaloff>:/images/WindowsIcon.ico</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>160</width>
+     <height>160</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mayaPB">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>280</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>setup</string>
+   </property>
+   <property name="icon">
+    <iconset resource="CGE_SETUP.qrc">
+     <normaloff>:/images/mayaico.png</normaloff>:/images/mayaico.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>100</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="PTElog">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>321</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>background-color: rgba(255, 255, 255, 0);
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="CGE_SETUP.qrc"/>
+ </resources>
+ <connections/>
+</ui>
