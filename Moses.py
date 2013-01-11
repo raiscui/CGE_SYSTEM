@@ -117,7 +117,7 @@ def NukeDo(MosesObject=Moses()):
 
 def main():
 	a = Moses()
-	print a.getAnswer("nuke_system,Linux,7.1")
+	print a.getAnswer("nuke_system,Linux,7.0")
 
 if __name__ == '__main__':
 	main()
