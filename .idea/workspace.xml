@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py" line="120" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" name="Default" comment="" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +369,11 @@
       <created>1357988244935</created>
       <updated>1357988244935</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add workspace file">
+      <created>1357988402173</created>
+      <updated>1357988402173</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
