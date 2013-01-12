@@ -38,6 +38,11 @@
      <height>271</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
    <property name="styleSheet">
     <string>border-image: url(:/images/CGE logo 980.jpg);</string>
    </property>
@@ -46,6 +51,9 @@
    </property>
   </widget>
   <widget class="QPushButton" name="nukePB">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>80</x>
@@ -109,7 +117,7 @@
     </size>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="PTElog">
+  <widget class="QPlainTextEdit" name="MessageTable">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -118,12 +126,23 @@
      <height>271</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
    <property name="styleSheet">
     <string>background-color: rgba(255, 255, 255, 0);
+color: rgb(0, 255, 0);
 </string>
    </property>
    <property name="frameShape">
     <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>
