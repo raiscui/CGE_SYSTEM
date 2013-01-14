@@ -102,7 +102,7 @@ def NukeAnalysis(mosesAnswer_og):
 		return {'syspath':mosesAnswer_list[0]}
 
 #----------------------------------------------------------------------
-def NukeDo(MosesObject=Moses()):
+def NukeDo(MosesObject=Moses(host='huangxf.sunupcg.cn')):
 	import nuke
 	import sys
 	
@@ -116,8 +116,8 @@ def NukeDo(MosesObject=Moses()):
 
 
 def main():
-	a = Moses()
-	print a.getAnswer("nuke_system,Linux,7.0")
+	a = Moses(host='huangxf.sunupcg.cn')
+	print a.getAnswer("nuke_system,Windows,7.0")
 
 if __name__ == '__main__':
 	main()

@@ -13,7 +13,9 @@
     <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Moses.py" />
     <option name="PARAMETERS" value="" />
     <RunnerSettings RunnerId="PyDebugRunner" />
+    <RunnerSettings RunnerId="PythonRunner" />
     <ConfigurationWrapper RunnerId="PyDebugRunner" />
+    <ConfigurationWrapper RunnerId="PythonRunner" />
     <method />
   </configuration>
 </component>

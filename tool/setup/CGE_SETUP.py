@@ -99,9 +99,16 @@ class MainWindow(CGE_SETUP_form, CGE_SETUP_base, object):
 			self.emit(QtCore.SIGNAL("sms"), u'Nuke模块没有安装')
 
 		def yes():
+			import shutil
+			old_dir1 = r'C:\Program Files\Common Files\Nuke\6.3\plugins\myplug'
+			old_dir2 = r'D:\Program Files\Nuke6.3v4\plugins\user'
+			old_dir4 = r'E:\Program Files\Nuke6.3v4\plugins\user'
+			old_dir = [old_dir1, old_dir2, old_dir4]
+			for d in old_dir:
+				if os.path.exists(d):
+					shutil.rmtree(d)
 
-		#			toPath = os.path.join(path, 'init.py')
-		#			os.remove(toPath)
+		
 			urls = 'http://huangxf.sunupcg.cn:8000/NUKE-setup/init.py'
 			os.chdir(path)
 			try:
