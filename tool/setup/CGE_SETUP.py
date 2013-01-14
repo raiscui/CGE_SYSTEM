@@ -28,13 +28,13 @@ def down(url, localFileName=None):
 	f.close()
 
 ##########################################################################
-sip.setapi('QString', 2)
-sip.setapi('QTextStream', 2)
-sip.setapi('QVariant', 2)
-sip.setapi('QTime', 2)
-sip.setapi('QDate', 2)
-sip.setapi('QDateTime', 2)
-sip.setapi('QUrl', 2)
+# sip.setapi('QString', 2)
+# sip.setapi('QTextStream', 2)
+# sip.setapi('QVariant', 2)
+# sip.setapi('QTime', 2)
+# sip.setapi('QDate', 2)
+# sip.setapi('QDateTime', 2)
+# sip.setapi('QUrl', 2)
 
 from PyQt4 import QtCore, uic
 from PyQt4.QtGui import *
@@ -50,8 +50,8 @@ class MainWindow(CGE_SETUP_form, CGE_SETUP_base, object):
 
 		#====--------------------  信号连接  --------------------====
 		self.connect(self, QtCore.SIGNAL("sms"), self.toMessageTab)
-		self.mayaPB.clicked.connect(self.__mayaInstall)
-		self.nukePB.clicked.connect(self.__nukeInstall)
+		self.mayaPB.clicked.connect(self.mayaInstall)
+		self.nukePB.clicked.connect(self.nukeInstall)
 
 	#		self.nukePB.pressed.connect(self.nukeInstall)
 
@@ -78,7 +78,7 @@ class MainWindow(CGE_SETUP_form, CGE_SETUP_base, object):
 		for s in string: self.MessageTable.appendPlainText(unicode(s))
 
 
-	def __mayaInstall(self):
+	def mayaInstall(self):
 		QMessageBox.about(None,
 			u'CGEngine  -  Troy',
 			u" <h2><font color='red'>" + u'还没有maya的安装！' + u' </font></h2><BR> '
@@ -126,9 +126,9 @@ class MainWindow(CGE_SETUP_form, CGE_SETUP_base, object):
 
 		yes()
 
-
+import sys
 if __name__ == '__main__':
-	import sys
+	
 
 	app = QApplication(sys.argv)
 	mainWin = MainWindow()
