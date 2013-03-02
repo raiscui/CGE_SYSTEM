@@ -24,27 +24,33 @@ def getPyVersion():
 	""""""
 	import sys
 	return sys.version[:3]
-#****************************************************************#
-# if not os.path.exists('Moses.pyc'):
-mosesPaths = ['http://huangxf.sunupcg.cn:8000/py/'+ getPyVersion() +'/Moses.pyc']
-for mp in mosesPaths:
-	try:
-		down(mp)
-	except Exception, e:
-		print e
-		pass
-print os.getcwd()
-#****************************************************************#
-import Moses
-Moses.NukeDo()
 
 #****************************************************************#
+def main():
+	# if not os.path.exists('Moses.pyc'):
+	mosesPaths = ['http://127.0.0.1:8000/py/'+ getPyVersion() +'/Moses.pyc']
 
-global syspath
-syspath = Moses.mosesAnswer['syspath']
-print 'CGE NUKE syspath: ------------> \n', syspath
-print '==========================='
+	for mp in mosesPaths:
+		try:
+			down(mp)
+		except Exception, e:
+			print e
+			pass
+	print 'Moses down to '+os.getcwd()
+	#****************************************************************#
+	import Moses
+	Moses.NukeDo()
 
-for p in sys.path:
-	print p
-print '==========================='
+	#****************************************************************#
+
+	global syspath
+	syspath = Moses.syspath
+	print 'CGE NUKE syspath: ------------> \n', syspath
+	print '==========================='
+
+	for p in sys.path:
+		print p
+	print '==========================='
+
+if __name__ == '__main__':
+	main()

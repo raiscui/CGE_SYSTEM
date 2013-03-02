@@ -5,10 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/moses_py2_7_debug.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/moses_py2_7_debug.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/md5it.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/socket.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/moses_py2_7_debug.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gabriel/item/Gabriel_Horn.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gabriel/item/Gabriel_Horn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Moses.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ropeproject/globalnames" afterPath="$PROJECT_DIR$/.ropeproject/globalnames" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CGE_SYSTEM.iml" afterPath="$PROJECT_DIR$/.idea/CGE_SYSTEM.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tool/compile.py" afterPath="$PROJECT_DIR$/tool/compile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cansee/NUKE-setup/init.py" afterPath="$PROJECT_DIR$/cansee/NUKE-setup/init.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Moses.py" afterPath="$PROJECT_DIR$/Moses.py" />
     </list>
+    <file path="/Dummy.txt" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362218171583" ignored="false" />
+    <file path="/Gabriel_Horn.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362225019966" ignored="false" />
+    <file path="/zipfile.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362135448155" ignored="false" />
+    <file path="/Python Console" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362141653839" ignored="false" />
+    <file path="/zipit.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362228484126" ignored="false" />
+    <file path="/md5it.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362213592893" ignored="false" />
+    <file path="/jsonTest.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362210840583" ignored="false" />
+    <file path="/jsonF.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362213908348" ignored="false" />
+    <file path="/Moses.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362228054438" ignored="false" />
+    <file path="/init.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362227733079" ignored="false" />
+    <file path="/" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362226706580" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +39,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="true" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CGE_SYSTEM$zipfile.coverage" NAME="zipfile Coverage Results" MODIFIED="1362135562604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -30,10 +56,90 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Moses.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Moses.py">
+      <file leaf-file-name="Gabriel_Horn.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/Gabriel_Horn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="0" selection-start="2828" selection-end="2828" vertical-scroll-proportion="0.91658944">
+            <state line="181" column="14" selection-start="4727" selection-end="4727" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#153#195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Moses.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/Moses.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="204" column="0" selection-start="4955" selection-end="4955" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#151#160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zipit.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/zipit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="57" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#122#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="md5it.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/md5it.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="framesnippets2.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.nuke/user/7.0/frameSnippets/framesnippets2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="46" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prometeus.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Prometeus/Prometeus.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="51" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ioUtils.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Michael_system/scripts/micheal/ioUtils/ioUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="159" selection-end="593" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cansee/NUKE-setup/init.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.6051873">
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compile.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool/compile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -42,7 +148,7 @@
       <file leaf-file-name="CGE_SETUP.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+            <state line="70" column="4" selection-start="1689" selection-end="1821" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -66,25 +172,35 @@
   </component>
   <component name="GitLogSettings">
     <option name="myStructureFilterPaths" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Moses.py" root0="FORCE_HIGHLIGHTING" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tool/setup/test.py" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/tool/setup/CGE_SETUP.py" />
-        <option value="$PROJECT_DIR$/Moses.py" />
+        <option value="$PROJECT_DIR$/tool/zipfile.py" />
+        <option value="$PROJECT_DIR$/tool/zipit.py" />
+        <option value="$PROJECT_DIR$/tool/md5it.py" />
+        <option value="$USER_HOME$/.nuke/user/pro_source.conf" />
+        <option value="$USER_HOME$/.nuke/user/pro_source2.conf" />
+        <option value="$PROJECT_DIR$/Gabriel/item/Gabriel_Horn.py" />
+        <option value="$PROJECT_DIR$/Gabriel/item/jsonTest.py" />
+        <option value="$PROJECT_DIR$/core/jsonTest.py" />
+        <option value="$PROJECT_DIR$/core/md5it.py" />
+        <option value="$PROJECT_DIR$/core/jsonF.py" />
+        <option value="$PROJECT_DIR$/tool/compile.py" />
+        <option value="$PROJECT_DIR$/core/Gabriel_Horn.py" />
+        <option value="$PROJECT_DIR$/../../../maya/Prometeus_system/Michael_system/scripts/micheal/ioUtils/ioUtils.py" />
+        <option value="$PROJECT_DIR$/cansee/NUKE-setup/init.py" />
+        <option value="$PROJECT_DIR$/core/Moses.py" />
+        <option value="$PROJECT_DIR$/core/zipit.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1096" />
-    <option name="height" value="1810" />
+    <option name="width" value="1080" />
+    <option name="height" value="1807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -112,6 +228,29 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Problems" />
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="CGE_SYSTEM">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,35 +301,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGE_SYSTEM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGE_SYSTEM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGE_SYSTEM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGE_SYSTEM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="140" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="147" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="143" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tool/setup/CGE_SETUP.py" />
+    <property name="last_opened_file_path" value="D:/Program Files/Nuke7.0v2/plugins" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="147" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="570" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="569" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="146" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="146" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -204,7 +375,85 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.moses py2.7 debug">
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.md5it">
+    <configuration default="false" name="Gabriel_Horn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="CGE_SYSTEM" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/Gabriel_Horn.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Moses" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="CGE_SYSTEM" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/Moses.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="zipit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="CGE_SYSTEM" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/zipit.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="md5it" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="CGE_SYSTEM" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/md5it.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,6 +492,19 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="" />
+      <option name="PORT" value="0" />
+      <option name="HOST" value="null" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,19 +522,8 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
-      <module name="" />
-      <option name="PORT" value="0" />
-      <option name="HOST" value="null" />
-      <PyPathMappingSettings>
-        <option name="pathMappings">
-          <list />
-        </option>
-      </PyPathMappingSettings>
-      <option name="REDIRECT_OUTPUT" value="true" />
-      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -299,29 +550,20 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <configuration default="false" name="setup py2.7 debug" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:/Python27/python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tool/setup" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <module name="CGE_SYSTEM" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool/setup/CGE_SETUP.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.moses py2.7 debug" />
-      <item index="1" class="java.lang.String" itemvalue="Python.setup py2.7 debug" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.Gabriel_Horn" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Moses" />
+      <item index="2" class="java.lang.String" itemvalue="Python.zipit" />
+      <item index="3" class="java.lang.String" itemvalue="Python.md5it" />
     </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.md5it" />
+        <item index="1" class="java.lang.String" itemvalue="Python.zipit" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Gabriel_Horn" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Moses" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
@@ -396,26 +638,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1096" height="1810" extended-state="7" />
+    <frame x="0" y="0" width="1080" height="1807" extended-state="2" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.4729207" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14924471" sideWeight="0.46875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36468446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25628626" sideWeight="0.4678398" order="1" side_tool="true" content_ui="tabs" x="173" y="544" width="233" height="574" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25628626" sideWeight="0.19842233" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="eSnippet Pro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39927185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29589844" sideWeight="0.24833837" order="1" side_tool="true" content_ui="tabs" x="173" y="544" width="233" height="574" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22949219" sideWeight="0.6622357" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33776435" sideWeight="0.56347656" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2514507" sideWeight="0.5473301" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294903" sideWeight="0.39555126" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294903" sideWeight="0.5976789" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.49613154" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36012083" sideWeight="0.4296875" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31117824" sideWeight="0.565764" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.49613154" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.49226305" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.4845261" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.9484223" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32910156" sideWeight="0.68882173" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="eSnippet Pro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24951644" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39987865" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -453,6 +697,9 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="add workspace file" />
@@ -474,126 +721,132 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://D:/Wing IDE 4 scripts/wingHotkeys.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
+    <entry file="file://$USER_HOME$/.nuke/user/7.0/proNuke/pro_wp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="58" selection-start="2630" selection-end="2630" vertical-scroll-proportion="0.0">
+        <state line="159" column="56" selection-start="4098" selection-end="4098" vertical-scroll-proportion="0.4553846" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python2.7/posixpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="312" column="28" selection-start="9874" selection-end="9874" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python2.7/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="0" selection-start="4254" selection-end="4254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-1247972723/PyQt4/QtNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3596" column="8" selection-start="135479" selection-end="135479" vertical-scroll-proportion="0.33299696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/jsonF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="17" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1102" column="0" selection-start="46492" selection-end="46492" vertical-scroll-proportion="0.0" />
+        <state line="1116" column="0" selection-start="46679" selection-end="46679" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Moses.py">
+    <entry file="file://$PROJECT_DIR$/tool/compile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="175" selection-end="176" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.nuke/user/7.0/frameSnippets/framesnippets2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="46" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Prometeus/Prometeus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="51" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Michael_system/scripts/micheal/ioUtils/ioUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="159" selection-end="593" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+        <state line="70" column="4" selection-start="1689" selection-end="1821" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Moses.py">
+    <entry file="file://$PROJECT_DIR$/core/Gabriel_Horn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="175" selection-end="176" vertical-scroll-proportion="0.0">
+        <state line="181" column="14" selection-start="4727" selection-end="4727" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#153#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/zipit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="57" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#122#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/md5it.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
+    <entry file="file://$PROJECT_DIR$/core/Moses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="14" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="204" column="0" selection-start="4955" selection-end="4955" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#151#160#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Moses.py">
+    <entry file="file://$PROJECT_DIR$/cansee/NUKE-setup/init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="175" selection-end="176" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Python/tool.setup.CGE_SETUP.MainWindow">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>tool.setup.CGE_SETUP.MainWindow</OriginalElement>
-          <nodes>
-            <node x="" y="">tool.setup.CGE_SETUP.MainWindow</node>
-            <node x="" y="">CGE_SETUP_form</node>
-            <node x="" y="">CGE_SETUP_base</node>
-            <node x="" y="">object</node>
-            <node x="" y="">_abcoll.Hashable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="228.0" y="443.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-762174762/PyQt4/QtGui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28905" column="27" selection-start="1029170" selection-end="1029170" vertical-scroll-proportion="0.20261031" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1102" column="0" selection-start="46492" selection-end="46492" vertical-scroll-proportion="1.6034805" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="44" selection-start="3193" selection-end="3193" vertical-scroll-proportion="0.87242025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="10" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.43188137" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Moses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="2828" selection-end="2828" vertical-scroll-proportion="0.91658944">
-          <folding />
+        <state line="42" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.6051873">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

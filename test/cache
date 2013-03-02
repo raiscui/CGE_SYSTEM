@@ -1,0 +1,30 @@
+
+def cache(func):
+	from functools import wraps 
+	caches = {}
+	@wraps(func)
+	def wrapper(*args):
+		if args not in caches:
+			caches[args] = func(*args)
+		return caches[args]
+	return wrapper
+
+@cache
+def fib(n):
+	if n < 2:
+		return 1
+	return fib(n-1) + fib(n-2)
+
+def fib2(n):
+	if n < 2:
+		return 1
+	return fib(n-1) + fib(n-2)
+
+import timeit
+
+t = timeit.Timer('fib(5)','from __main__ import fib')
+print t.repeat(3,4000000)
+
+t = timeit.Timer('fib2(5)','from __main__ import fib2')
+print t.repeat(3,4000000)
+

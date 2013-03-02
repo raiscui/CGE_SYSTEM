@@ -3,17 +3,24 @@
 # Author:  rais --<CGE>
 # Purpose: CGE system Gabriel horm service, add md5
 # Created: 2012/12/28
-
+debug=1
 
 from PyQt4 import QtCore, QtGui, QtNetwork
 from collections import defaultdict
 import hashlib as hl
-def tree(): return defaultdict(tree)
+import json
+from jsonF import jsonF
+
+import os
+#def tree(): return defaultdict(tree)
+tree=lambda: defaultdict(tree)
 def dicts(t):
 	if type(t) ==  defaultdict:
 		return {k: dicts(t[k]) for  k in t}
 	else:
 		return t
+
+
 ########################################################################
 class gabrielHornThread(QtCore.QThread):
 	"""CGE system Gabriel horm answer Thread"""
@@ -25,12 +32,13 @@ class gabrielHornThread(QtCore.QThread):
 		self.sockDescriptor =  socketDescriptor
 		self.tcpSocket = None
 		
-		self.results = tree()
-		self.results['nuke_system']['Windows']['6.3'] = "//10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin/6.3"
-		self.results['nuke_system']['Windows']['7.0'] = "//10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin/7.0"
-		self.results['nuke_system']['Linux']['6.3'] = "/cifs/10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin/6.3"
-		self.results['nuke_system']['Linux']['7.0'] = "/cifs/10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin/7.0"
-		self.results['nuke_system中文']['Linux']['7.0'] = '中文文4中文文4中文文4中文'
+
+		#todo rais
+		#send json
+		self.ProConf = parent.ProConf
+		if debug:print self.ProConf
+
+
 	#----------------------------------------------------------------------
 	def run(self):
 		""""""
@@ -77,7 +85,7 @@ class gabrielHornThread(QtCore.QThread):
 	#====--------------------  thinking  --------------------====
 		
 
-		answerResult  =  self.results
+		answerResult  =  self.ProConf
 		try:
 			for x in currentQuestion:
 				answerResult  =  answerResult[x]			
@@ -86,6 +94,8 @@ class gabrielHornThread(QtCore.QThread):
 
 		if type(answerResult) is defaultdict:
 			answerResult = None
+		answerResult = json.dumps(answerResult)
+		if debug:print 'answerResult',answerResult
 		#self.sleep(1)
 
 
@@ -103,10 +113,8 @@ class gabrielHornThread(QtCore.QThread):
 		except:
 			#self.tcpSocket.write('None')
 			pass
-		
-		
-	
-		
+
+
 
 
 
@@ -115,13 +123,30 @@ class gabrielHornThread(QtCore.QThread):
 class gabrielHornSer(QtNetwork.QTcpServer):
 	"""CGE system Gabriel horm answer service """
 
-	#----------------------------------------------------------------------
+
+
 	def __init__(self, parent=None):
 		"""Constructor"""
 		super(gabrielHornSer, self).__init__(parent)
+		self.ProConf = None
+		self.json_init()
+		#====--------------------  信号连接  --------------------====
+		self.connect(self, QtCore.SIGNAL("jsonUpdate"), self.jsonUpdate)
 
- 
+	#----------------------------------------------------------------------
+	def json_init(self):
+		selfConfObj = jsonF('./' + __name__ + '.conf')
+		selfConf = selfConfObj.proDataLoad()
+		if debug:
+			from pprint import pprint
+			pprint(selfConf)
+		ProConfPath = selfConf['CGE_SYSTEM']['conf_object']['Prometeus']
+		ProConfObj= jsonF(ProConfPath)
+		self.ProConf = ProConfObj.proDataLoad()
+		if debug:pprint(self.ProConf)
 
+	def jsonUpdate(self):
+		self.json_init()
 	#----------------------------------------------------------------------
 	def incomingConnection(self, socketDescriptor):
 		""""""
@@ -135,6 +160,7 @@ class mainwin(QtGui.QDialog):
 		super(mainwin, self).__init__(parent)
 
 		statusLabel = QtGui.QLabel()
+		updateButton = QtGui.QPushButton("jsonUpdate")
 		quitButton = QtGui.QPushButton("Quit")
 		quitButton.setAutoDefault(False)
 
@@ -153,12 +179,14 @@ class mainwin(QtGui.QDialog):
 
 
 		#====--------------------  connect  --------------------====
-
+		updateButton.clicked.connect(self.tcpServer.jsonUpdate)
 		quitButton.clicked.connect(self.close)
 
 		#****************************************************************#
 
 		buttonLayout = QtGui.QHBoxLayout()
+		buttonLayout.addStretch(1)
+		buttonLayout.addWidget(updateButton)
 		buttonLayout.addStretch(1)
 		buttonLayout.addWidget(quitButton)
 		buttonLayout.addStretch(1)
