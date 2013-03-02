@@ -109,7 +109,7 @@ class MainWindow(CGE_SETUP_form, CGE_SETUP_base, object):
 					shutil.rmtree(d)
 
 		
-			urls = 'http://huangxf.sunupcg.cn:8000/NUKE-setup/init.py'
+			urls = 'http://10.0.0.135:8000/NUKE-setup/init.py'
 			os.chdir(path)
 			try:
 				down(urls)

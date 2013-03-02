@@ -203,7 +203,7 @@ def chkupdate(mosesAnswer, questionList):
 		return update(dataFileName, mosesAnswer, questionList[2])
 
 
-def NukeDo(MosesObject=Moses(host='127.0.0.1')):
+def NukeDo(MosesObject=Moses(host='10.0.0.135')):
 	import nuke
 	import sys
 

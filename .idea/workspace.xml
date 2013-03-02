@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/md5it.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/socket.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/moses_py2_7_debug.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gabriel/item/Gabriel_Horn.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gabriel/item/Gabriel_Horn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Moses.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ropeproject/globalnames" afterPath="$PROJECT_DIR$/.ropeproject/globalnames" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CGE_SYSTEM.iml" afterPath="$PROJECT_DIR$/.idea/CGE_SYSTEM.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tool/compile.py" afterPath="$PROJECT_DIR$/tool/compile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tool/setup/CGE_SETUP.py" afterPath="$PROJECT_DIR$/tool/setup/CGE_SETUP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Moses.py" afterPath="$PROJECT_DIR$/core/Moses.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cansee/NUKE-setup/init.py" afterPath="$PROJECT_DIR$/cansee/NUKE-setup/init.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <file path="/Dummy.txt" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362218171583" ignored="false" />
@@ -29,9 +18,10 @@
     <file path="/md5it.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362213592893" ignored="false" />
     <file path="/jsonTest.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362210840583" ignored="false" />
     <file path="/jsonF.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362213908348" ignored="false" />
-    <file path="/Moses.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362228054438" ignored="false" />
-    <file path="/init.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362227733079" ignored="false" />
+    <file path="/Moses.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362232682058" ignored="false" />
+    <file path="/init.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362232654923" ignored="false" />
     <file path="/" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362226706580" ignored="false" />
+    <file path="/CGE_SETUP.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362232758657" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +60,7 @@
       <file leaf-file-name="Moses.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/Moses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="0" selection-start="4955" selection-end="4955" vertical-scroll-proportion="0.0">
+            <state line="205" column="45" selection-start="5001" selection-end="5001" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#151#160#0" expanded="true" />
               </folding>
@@ -125,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="init.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cansee/NUKE-setup/init.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.6051873">
+            <state line="41" column="18" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -145,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CGE_SETUP.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CGE_SETUP.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="4" selection-start="1689" selection-end="1821" vertical-scroll-proportion="0.0">
+            <state line="114" column="26" selection-start="2751" selection-end="2751" vertical-scroll-proportion="1.6426513">
               <folding />
             </state>
           </provider>
@@ -179,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tool/zipfile.py" />
         <option value="$PROJECT_DIR$/tool/zipit.py" />
         <option value="$PROJECT_DIR$/tool/md5it.py" />
         <option value="$USER_HOME$/.nuke/user/pro_source.conf" />
@@ -192,9 +181,10 @@
         <option value="$PROJECT_DIR$/tool/compile.py" />
         <option value="$PROJECT_DIR$/core/Gabriel_Horn.py" />
         <option value="$PROJECT_DIR$/../../../maya/Prometeus_system/Michael_system/scripts/micheal/ioUtils/ioUtils.py" />
+        <option value="$PROJECT_DIR$/core/zipit.py" />
         <option value="$PROJECT_DIR$/cansee/NUKE-setup/init.py" />
         <option value="$PROJECT_DIR$/core/Moses.py" />
-        <option value="$PROJECT_DIR$/core/zipit.py" />
+        <option value="$PROJECT_DIR$/tool/setup/CGE_SETUP.py" />
       </list>
     </option>
   </component>
@@ -800,22 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="4" selection-start="1689" selection-end="1821" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Gabriel_Horn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="14" selection-start="4727" selection-end="4727" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#153#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/zipit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="57" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
@@ -832,9 +806,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/Gabriel_Horn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="14" selection-start="4727" selection-end="4727" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#153#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/Moses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="0" selection-start="4955" selection-end="4955" vertical-scroll-proportion="0.0">
+        <state line="205" column="45" selection-start="5001" selection-end="5001" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#151#160#0" expanded="true" />
           </folding>
@@ -843,10 +826,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cansee/NUKE-setup/init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.6051873">
+        <state line="41" column="18" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="26" selection-start="2751" selection-end="2751" vertical-scroll-proportion="1.6426513">
+          <folding />
         </state>
       </provider>
     </entry>

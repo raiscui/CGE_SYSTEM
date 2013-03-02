@@ -28,7 +28,7 @@ def getPyVersion():
 #****************************************************************#
 def main():
 	# if not os.path.exists('Moses.pyc'):
-	mosesPaths = ['http://127.0.0.1:8000/py/'+ getPyVersion() +'/Moses.pyc']
+	mosesPaths = ['http://10.0.0.135:8000/py/'+ getPyVersion() +'/Moses.pyc']
 
 	for mp in mosesPaths:
 		try:
