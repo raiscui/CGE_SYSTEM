@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tool/setup/CGE_SETUP.py" afterPath="$PROJECT_DIR$/tool/setup/CGE_SETUP.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Moses.py" afterPath="$PROJECT_DIR$/core/Moses.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cansee/NUKE-setup/init.py" afterPath="$PROJECT_DIR$/cansee/NUKE-setup/init.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <file path="/Dummy.txt" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362218171583" ignored="false" />
@@ -18,7 +16,7 @@
     <file path="/md5it.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362213592893" ignored="false" />
     <file path="/jsonTest.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362210840583" ignored="false" />
     <file path="/jsonF.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362213908348" ignored="false" />
-    <file path="/Moses.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362232682058" ignored="false" />
+    <file path="/Moses.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362233240793" ignored="false" />
     <file path="/init.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362232654923" ignored="false" />
     <file path="/" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362226706580" ignored="false" />
     <file path="/CGE_SETUP.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362232758657" ignored="false" />
@@ -57,12 +55,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Moses.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Moses.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/Moses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="45" selection-start="5001" selection-end="5001" vertical-scroll-proportion="0.0">
+            <state line="184" column="35" selection-start="4401" selection-end="4401" vertical-scroll-proportion="0.76945245">
               <folding>
-                <element signature="e#151#160#0" expanded="true" />
+                <element signature="e#141#150#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +107,10 @@
       <file leaf-file-name="ioUtils.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Michael_system/scripts/micheal/ioUtils/ioUtils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="159" selection-end="593" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="27" column="29" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#134#143#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CGE_SETUP.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CGE_SETUP.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="26" selection-start="2751" selection-end="2751" vertical-scroll-proportion="1.6426513">
+            <state line="11" column="54" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,8 +183,8 @@
         <option value="$PROJECT_DIR$/../../../maya/Prometeus_system/Michael_system/scripts/micheal/ioUtils/ioUtils.py" />
         <option value="$PROJECT_DIR$/core/zipit.py" />
         <option value="$PROJECT_DIR$/cansee/NUKE-setup/init.py" />
-        <option value="$PROJECT_DIR$/core/Moses.py" />
         <option value="$PROJECT_DIR$/tool/setup/CGE_SETUP.py" />
+        <option value="$PROJECT_DIR$/core/Moses.py" />
       </list>
     </option>
   </component>
@@ -783,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Michael_system/scripts/micheal/ioUtils/ioUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="159" selection-end="593" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/zipit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="57" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
@@ -815,15 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Moses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="45" selection-start="5001" selection-end="5001" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#151#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cansee/NUKE-setup/init.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="18" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
@@ -835,8 +819,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="26" selection-start="2751" selection-end="2751" vertical-scroll-proportion="1.6426513">
+        <state line="11" column="54" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Michael_system/scripts/micheal/ioUtils/ioUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="29" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#134#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Moses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="35" selection-start="4401" selection-end="4401" vertical-scroll-proportion="0.76945245">
+          <folding>
+            <element signature="e#141#150#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

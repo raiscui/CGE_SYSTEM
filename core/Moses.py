@@ -4,19 +4,18 @@
 # Purpose: Moses, gh tcp client, have md5
 # Created: 2013/1/5
 debug=1
-SO_DEBUG=1
+
 import os
 from socket import *
 import hashlib as hl
 from hashlib import md5
 
-import os
+
 from os.path import basename
 from urlparse import urlsplit
 import urllib2
 import nuke
 from zipfile import ZipFile, ZIP_DEFLATED
-import sys
 import shutil
 
 #========================================================
@@ -181,6 +180,9 @@ def update(dataFileName, mosesAnswer, nukeV):
 		pass
 	print 'Prometeus down to ' + os.getcwd()
 	print 'Set Prometeus...'
+	fullUserPath = os.path.join(NukeUserPath,nukeV)
+	if os.path.exists(fullUserPath):
+		shutil.rmtree(fullUserPath)
 	extract2(dataFileName,NukeUserPath,nukeV)
 	return os.path.join(NukeUserPath,nukeV)
 
