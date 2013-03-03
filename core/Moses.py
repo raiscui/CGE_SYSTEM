@@ -9,14 +9,14 @@ import os
 from socket import *
 import hashlib as hl
 from hashlib import md5
-
-
 from os.path import basename
 from urlparse import urlsplit
 import urllib2
-import nuke
-from zipfile import ZipFile, ZIP_DEFLATED
+from zipfile import ZipFile
 import shutil
+
+import nuke
+
 
 #========================================================
 # file
