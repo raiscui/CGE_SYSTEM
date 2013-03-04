@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Moses.py" afterPath="$PROJECT_DIR$/core/Moses.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cansee/NUKE-setup/init.py" afterPath="$PROJECT_DIR$/cansee/NUKE-setup/init.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <file path="/Dummy.txt" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362309715580" ignored="false" />
+    <file path="/Dummy.txt" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362363891155" ignored="false" />
     <file path="/Gabriel_Horn.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362225019966" ignored="false" />
     <file path="/zipfile.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362135448155" ignored="false" />
     <file path="/Python Console" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362141653839" ignored="false" />
-    <file path="/zipit.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362228484126" ignored="false" />
+    <file path="/zipit.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362311639081" ignored="false" />
     <file path="/md5it.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362213592893" ignored="false" />
     <file path="/jsonTest.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362210840583" ignored="false" />
     <file path="/jsonF.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362213908348" ignored="false" />
@@ -57,10 +55,8 @@
       <file leaf-file-name="Moses.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/Moses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="0" selection-start="3643" selection-end="3643" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#141#150#0" expanded="true" />
-              </folding>
+            <state line="183" column="34" selection-start="4343" selection-end="4355" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,25 +64,18 @@
       <file leaf-file-name="zipit.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/zipit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="57" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="35" column="83" selection-start="991" selection-end="1059" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#122#131#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="md5it.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="md5it.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/md5it.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="framesnippets2.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.nuke/user/7.0/frameSnippets/framesnippets2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="46" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
+            <state line="17" column="25" selection-start="423" selection-end="423" vertical-scroll-proportion="0.23502304">
               <folding />
             </state>
           </provider>
@@ -114,14 +103,12 @@
         <entry file="file://$PROJECT_DIR$/cansee/NUKE-setup/init.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="28" column="34" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compile.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="compile.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tool/compile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="137" vertical-scroll-proportion="0.0">
@@ -176,10 +163,10 @@
         <option value="$PROJECT_DIR$/tool/compile.py" />
         <option value="$PROJECT_DIR$/core/Gabriel_Horn.py" />
         <option value="$PROJECT_DIR$/../../../maya/Prometeus_system/Michael_system/scripts/micheal/ioUtils/ioUtils.py" />
-        <option value="$PROJECT_DIR$/core/zipit.py" />
         <option value="$PROJECT_DIR$/tool/setup/CGE_SETUP.py" />
         <option value="$PROJECT_DIR$/core/Moses.py" />
         <option value="$PROJECT_DIR$/cansee/NUKE-setup/init.py" />
+        <option value="$PROJECT_DIR$/core/zipit.py" />
       </list>
     </option>
   </component>
@@ -624,17 +611,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1080" height="1807" extended-state="2" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14924471" sideWeight="0.46875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36435047" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29589844" sideWeight="0.24833837" order="1" side_tool="true" content_ui="tabs" x="173" y="544" width="233" height="574" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.234375" sideWeight="0.68882173" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24414062" sideWeight="0.68882173" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33776435" sideWeight="0.56347656" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2514507" sideWeight="0.5473301" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36012083" sideWeight="0.4296875" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31117824" sideWeight="0.565764" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31117824" sideWeight="0.565764" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.49613154" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -717,23 +704,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.nuke/user/7.0/proNuke/pro_wp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="56" selection-start="4098" selection-end="4098" vertical-scroll-proportion="0.4553846" />
-      </provider>
-    </entry>
     <entry file="file:///usr/lib64/python2.7/posixpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="28" selection-start="9874" selection-end="9874" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="312" column="28" selection-start="9874" selection-end="9874" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file:///usr/lib64/python2.7/os.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="0" selection-start="4254" selection-end="4254" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="156" column="0" selection-start="4254" selection-end="4254" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-1247972723/PyQt4/QtNetwork.py">
@@ -753,35 +731,12 @@
     </entry>
     <entry file="file://$USER_HOME$/.nuke/user/7.0/frameSnippets/framesnippets2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="46" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="53" column="46" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Prometeus/Prometeus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="51" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/zipit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="57" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/md5it.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -803,24 +758,48 @@
     <entry file="file://$PROJECT_DIR$/cansee/NUKE-setup/init.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="34" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Moses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="0" selection-start="3643" selection-end="3643" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#141#150#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/compile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python2.7/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="700" column="0" selection-start="24527" selection-end="24527" vertical-scroll-proportion="0.3330224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Moses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="34" selection-start="4343" selection-end="4355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="54" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/zipit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="83" selection-start="991" selection-end="1059" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#122#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/md5it.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="423" selection-end="423" vertical-scroll-proportion="0.23502304">
           <folding />
         </state>
       </provider>
