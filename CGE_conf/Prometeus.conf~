@@ -3,21 +3,21 @@
         "Windows": {
             "7.0": [
                 "//10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin",
-                "7acc92d0cde7ea5cd46ee54d4d2882cc"
+                "0873d9fe17ffcd0410fd813529da05ac"
             ],
             "6.3": [
                 "//10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin",
-                "7acc92d0cde7ea5cd46ee54d4d2882cc"
+                "0873d9fe17ffcd0410fd813529da05ac"
             ]
         },
         "Linux": {
             "7.0": [
                 "/cifs/10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin",
-                "7acc92d0cde7ea5cd46ee54d4d2882cc"
+                "0873d9fe17ffcd0410fd813529da05ac"
             ],
             "6.3": [
                 "/cifs/10.0.0.16/digitmovie_render/CGE_SYSTEM/nuke_system/nukePlugin",
-                "7acc92d0cde7ea5cd46ee54d4d2882cc"
+                "0873d9fe17ffcd0410fd813529da05ac"
             ]
         }
     }
