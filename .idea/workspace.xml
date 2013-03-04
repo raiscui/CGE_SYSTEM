@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py" line="120" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" name="Default" comment="" />
     <file path="/Dummy.txt" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362363891155" ignored="false" />
     <file path="/Gabriel_Horn.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362225019966" ignored="false" />
     <file path="/zipfile.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362135448155" ignored="false" />
@@ -64,7 +62,7 @@
       <file leaf-file-name="zipit.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/zipit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="83" selection-start="991" selection-end="1059" vertical-scroll-proportion="0.0">
+            <state line="24" column="17" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#122#131#0" expanded="true" />
               </folding>
@@ -790,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/zipit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="83" selection-start="991" selection-end="1059" vertical-scroll-proportion="0.0">
+        <state line="24" column="17" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#122#131#0" expanded="true" />
           </folding>
