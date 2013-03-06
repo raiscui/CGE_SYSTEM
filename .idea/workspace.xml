@@ -9,10 +9,9 @@
       <change type="DELETED" beforePath="$USER_HOME$/.nuke/user/7.0/frameSnippets/framesnippets.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/.nuke/user/7.0/frameSnippets/framesnippets2.py" afterPath="$USER_HOME$/.nuke/user/7.0/frameSnippets/framesnippets2.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/.nuke/user/7.0/menu.py" afterPath="$USER_HOME$/.nuke/user/7.0/menu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <file path="/Dummy.txt" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362378027657" ignored="false" />
+    <file path="/Dummy.txt" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362394493551" ignored="false" />
     <file path="/Gabriel_Horn.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362225019966" ignored="false" />
     <file path="/zipfile.py" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362135448155" ignored="false" />
     <file path="/Python Console" changelist="05caf4ab-0ead-410f-8209-cf75fb6ebfc5" time="1362141653839" ignored="false" />
@@ -61,16 +60,16 @@
       <file leaf-file-name="Moses.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/Moses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="34" selection-start="4343" selection-end="4355" vertical-scroll-proportion="0.0">
+            <state line="144" column="33" selection-start="3158" selection-end="3165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zipit.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="zipit.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/zipit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="17" selection-start="617" selection-end="617" vertical-scroll-proportion="0.29085872">
+            <state line="21" column="33" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prometeus.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Prometeus.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Prometeus/Prometeus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="51" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
+            <state line="152" column="14" selection-start="4032" selection-end="4039" vertical-scroll-proportion="0.44507575">
               <folding />
             </state>
           </provider>
@@ -391,14 +390,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="147" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="143" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/.nuke/user/7.0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="147" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="569" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="570" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="569" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="146" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="146" />
@@ -545,6 +544,19 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="" />
+      <option name="PORT" value="0" />
+      <option name="HOST" value="null" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -564,19 +576,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
-      <module name="" />
-      <option name="PORT" value="0" />
-      <option name="HOST" value="null" />
-      <PathMappingSettings>
-        <option name="pathMappings">
-          <list />
-        </option>
-      </PathMappingSettings>
-      <option name="REDIRECT_OUTPUT" value="true" />
-      <option name="SUSPEND_AFTER_CONNECT" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -692,17 +691,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1080" height="1804" extended-state="2" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14924471" sideWeight="0.46875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36435047" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29589844" sideWeight="0.24833837" order="1" side_tool="true" content_ui="tabs" x="173" y="544" width="233" height="574" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25585938" sideWeight="0.68886197" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26171875" sideWeight="0.68886197" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33776435" sideWeight="0.56347656" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2514507" sideWeight="0.5473301" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36012083" sideWeight="0.4296875" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.311138" sideWeight="0.565764" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.311138" sideWeight="0.565764" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.49613154" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -810,13 +809,6 @@
         <state line="1116" column="0" selection-start="46679" selection-end="46679" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Prometeus/Prometeus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="51" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Michael_system/scripts/micheal/ioUtils/ioUtils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="29" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
@@ -850,13 +842,6 @@
         <state line="700" column="0" selection-start="24527" selection-end="24527" vertical-scroll-proportion="0.3330224" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Moses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="34" selection-start="4343" selection-end="4355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tool/setup/CGE_SETUP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="54" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
@@ -880,7 +865,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/zipit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="617" selection-end="617" vertical-scroll-proportion="0.29085872">
+        <state line="21" column="33" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Moses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="33" selection-start="3158" selection-end="3165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../maya/Prometeus_system/Prometeus/Prometeus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="14" selection-start="4032" selection-end="4039" vertical-scroll-proportion="0.44507575">
           <folding />
         </state>
       </provider>
